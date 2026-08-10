@@ -42,3 +42,10 @@ window.addEventListener("scroll", function () {
 document.getElementById("dropdownKontak").addEventListener("click", function (e) {
     e.stopPropagation();
 });
+
+const slider = document.querySelector('.galeri-container');
+
+slider.addEventListener('wheel', (e) => {
+    e.preventDefault();
+    slider.scrollLeft += e.deltaY * 0.5;
+});
