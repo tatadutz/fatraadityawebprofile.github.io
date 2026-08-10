@@ -104,13 +104,13 @@ body{
 
 .card{
 	width: 250px;
-	flex-shrink: 0;
-	background: white;
-	border-radius: 10px;
-	overflow: hidden;
-	text-decoration: none;
-	color: black;
-	transition: transform 0.3s;
+    flex-shrink: 0;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    color: black;
+    transition: transform 0.3s;;
 }
 
 .card:hover{
