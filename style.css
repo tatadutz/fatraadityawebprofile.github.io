@@ -82,9 +82,16 @@ body{
 
 .galeri-container{
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	gap: 20px;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+    padding-bottom: 15px;
+    scrollbar-width: none;
+}
+
+.galeri-container::-webkit-scrollbar{
+    display: none;
 }
 
 .galeri h2::before,
@@ -117,7 +124,7 @@ body{
 
 .card h3{
 	padding: 12px;
-	font-size: 16px;
+	font-size: 14px;
 }
 
 .card-content{
